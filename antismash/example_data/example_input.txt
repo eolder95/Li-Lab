@@ -1,0 +1,1 @@
+/media/ethan/Elements1/projects/github/Li-Lab/antismash/example_data/GCF_000005845.2_ASM584v2_genomic.fna
