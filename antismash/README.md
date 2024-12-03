@@ -9,6 +9,8 @@ From this directory containing the `run_antismash.sh` script and the folder exam
 3. Download the antismash databases using `download-antismash-databases`
 4. Run test data using `run_antismash.sh -m full -i example_data/example_input.txt`
 
+Make sure you use the full path to the `run_antismash.sh` script or that it is acccessible from your `$PATH` variable.
+
 ## Modes
 In `minimal` mode, antiSMASH will be run using BGC detection and identification only without running the in depth analysis modules. This is intended to be used for quick turnaround when analyzing many genomes at the same time.
 
