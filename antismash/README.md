@@ -4,7 +4,7 @@ This script will run antiSMASH v6 on a set of input genomes. The script includes
 
 ## Installation
 From this directory containing the `run_antismash.sh` script and the folder example_data, follow the following instructions:
-1. Create a conda environment using `conda create -n antismash -f environment.yml`
+1. Create a conda environment using `conda create -n antismash antismash`
 2. Activate conda environment using `conda activate antismash`
 3. Run test data using `run_antismash.sh -m full -i example_data/example_input.txt`
 
