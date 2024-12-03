@@ -6,7 +6,8 @@ This script will run antiSMASH v6 on a set of input genomes. The script includes
 From this directory containing the `run_antismash.sh` script and the folder example_data, follow the following instructions:
 1. Create a conda environment using `conda create -n antismash antismash`
 2. Activate conda environment using `conda activate antismash`
-3. Run test data using `run_antismash.sh -m full -i example_data/example_input.txt`
+3. Download the antismash databases using `download-antismash-databases`
+4. Run test data using `run_antismash.sh -m full -i example_data/example_input.txt`
 
 ## Modes
 In `minimal` mode, antiSMASH will be run using BGC detection and identification only without running the in depth analysis modules. This is intended to be used for quick turnaround when analyzing many genomes at the same time.
