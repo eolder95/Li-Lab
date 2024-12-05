@@ -9,16 +9,16 @@ print_usage() {
 
 while getopts ':m:i:' flags; do
   case "${flags}" in
-  	m) 
-				run_mode=${OPTARG}
-				;;
-		i)
-				input_paths=${OPTARG}
-				;;
-		*)
-				print_usage
-				exit 1
-				;;
+  	m)
+   		run_mode=${OPTARG}
+		;;
+	i)
+ 		input_paths=${OPTARG}
+		;;
+	*)
+		print_usage
+		exit 1
+		;;
   esac
 done
 shift $((OPTIND-1))
