@@ -1,6 +1,6 @@
 # Local antiSMASH
 ## Description
-This script will run antiSMASH v6 on a set of input genomes. The script includes three modes: `minimal`, `full`, and `upgrade` which can be set using the flag `-m`. An input file containing a list of absolute paths to each input genome must be provided using the flag `-i`.
+This script will run antiSMASH on a set of input genomes. The script includes three modes: `minimal`, `full`, and `upgrade` which can be set using the flag `-m`. An input file containing a list of absolute paths to each input genome must be provided using the flag `-i`.
 
 ## Installation
 From this directory containing the `run_antismash.sh` script and the folder example_data, follow the following instructions:
